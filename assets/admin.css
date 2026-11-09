@@ -1,0 +1,17 @@
+.wcosr .wcosr-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 12px; margin: 16px 0; }
+.wcosr .wcosr-card { background: #fff; border: 1px solid #c3c4c7; border-left-width: 4px; border-radius: 3px; padding: 10px 14px; }
+.wcosr .wcosr-card.good { border-left-color: #00a32a; }
+.wcosr .wcosr-card.warn { border-left-color: #dba617; }
+.wcosr .wcosr-card.bad  { border-left-color: #d63638; }
+.wcosr .wcosr-card-n { font-size: 24px; line-height: 1.2; font-weight: 600; }
+.wcosr .wcosr-card-l { color: #50575e; }
+.wcosr .wcosr-toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 12px 0; }
+.wcosr .wcosr-pill { display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: 12px; background: #f0f0f1; color: #1d2327; }
+.wcosr .wcosr-succeeded { background: #edfaef; color: #005c12; }
+.wcosr .wcosr-failed { background: #fcf0f1; color: #8a2424; }
+.wcosr .wcosr-retrying, .wcosr .wcosr-processing { background: #fcf9e8; color: #614200; }
+.wcosr .wcosr-err { max-width: 28em; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.wcosr .wcosr-good { color: #007017; }
+.wcosr .wcosr-bad { color: #b32d2e; }
+.wcosr .wcosr-check { display: inline-block; min-width: 12em; margin: 0 12px 4px 0; }
+.wcosr .wcosr-pager { margin-top: 12px; }
